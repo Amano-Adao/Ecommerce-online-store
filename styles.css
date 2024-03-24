@@ -1,0 +1,25 @@
+.badge-counter {
+  position: absolute !important;
+  top: -5px !important;
+  right: -9px !important;
+}
+
+#loading {
+  display: none;
+  width: 6rem;
+  height: 6rem;
+  border: 9px solid #d1d1d1;
+  border-top: 6px solid #0239ff;
+  border-radius: 100%;
+  margin: auto;
+  animation: loadingSpin 1s infinite linear;
+}
+
+@keyframes loadingSpin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
